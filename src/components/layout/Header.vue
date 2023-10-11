@@ -28,9 +28,6 @@
                     <li>
                         <NavLink link="#projects" title="Projetos" />
                     </li>
-                    <li>
-                        <NavLink link="#experience" title="Experiência" />
-                    </li>
                 </ul>
             </div>
         </nav>
