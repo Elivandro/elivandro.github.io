@@ -13,7 +13,7 @@
 
                     <ul class="flex items-end justify-center space-x-4 space-y-16" id="socialmedia-icons">
                         <li>
-                            <a href="https://www.linkedin.com/in/elivandroeas/ target="_blank" class="transition duration-150 ease-in-out rounded-full text-slate-800">
+                            <a href="https://www.linkedin.com/in/elivandroeas/" target="_blank" class="transition duration-150 ease-in-out rounded-full text-slate-800">
                                 <!-- LinkedIn svg -->
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 48 48">
                                     <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z" />
