@@ -72,7 +72,7 @@
                 <div class="flex flex-col">
                     <div class="flex items-end gap-8 text-left">
                         <h2 class="max-w-[120px] text-3xl">Meus projetos</h2>
-                        <h4 class="max-w-[200px]">Estes são alguns dos trabalhos e projetos que já realizei.</h4>
+                        <p class="max-w-[200px]">Estes são alguns dos trabalhos e projetos que já realizei.</p>
                     </div>
                     <div class="mt-8">
                         <PrimaryButton title="Todos" disabled />
