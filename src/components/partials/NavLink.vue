@@ -1,5 +1,5 @@
 <template>
-    <a :href="link" :title="title" :target="target" class="font-medium text-gray-600 hover:text-gray-400">
+    <a :href="link" :title="title" :target="target" class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-200 dark:hover:text-gray-400">
         {{ title }}
     </a>
 </template>
