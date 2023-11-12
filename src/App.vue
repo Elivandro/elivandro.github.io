@@ -1,22 +1,13 @@
 <template>
 
-  <Header />
-  <Main />
-  <Footer />
+  <AppHeader />
+  <RouterView />
+  <AppFooter />
 
 </template>
 
-<script>
-    import Header from './components/layout/Header.vue'
-    import Main from './components/layout/Main.vue'
-    import Footer from './components/layout/Footer.vue'
-
-    export default {
-        name: 'App',
-        components: {
-            Header,
-            Main,
-            Footer
-        }
-    }
+<script setup>
+    import { RouterView } from 'vue-router';
+    import AppHeader from './components/layout/AppHeader.vue';
+    import AppFooter from './components/layout/AppFooter.vue';
 </script>
