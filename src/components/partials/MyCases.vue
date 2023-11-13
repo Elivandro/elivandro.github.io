@@ -10,10 +10,10 @@
             <img src="@/assets/images/projects/case3.webp" width="320" height="180" class="shadow-md rounded-xl" alt="imagem do projeto 3" title="Pousada Secreta, exemplo do site de uma pousada com resort" />
         </a>
         <a href="https://elivandro.github.io/learn-proj/projetoEstagio/" target="_blank" class="duration-300 transform scale-95 opacity-75 transition-ease-in-out hover:opacity-100 hover:scale-100">
-            <img src="@/assets/images/projects/case4.webp" width="320" height="180" class="shadow-md rounded-xl" alt="imagem do projeto 3" title="Busca de pacotes de viagens e hospedagem, exemplo de site" />
+            <img src="@/assets/images/projects/case4.webp" width="320" height="180" class="shadow-md rounded-xl" alt="imagem do projeto 4" title="Busca de pacotes de viagens e hospedagem, exemplo de site" />
         </a>
         <a href="https://elivandro.github.io/learn-proj/AgenciaViagens/" target="_blank" class="duration-300 transform scale-95 opacity-75 transition-ease-in-out hover:opacity-100 hover:scale-100">
-            <img src="@/assets/images/projects/case5.webp" width="320" height="180" class="shadow-md rounded-xl" alt="imagem do projeto 3" title="Busca de pacotes de viagens e hospedagem, exemplo de site" />
+            <img src="@/assets/images/projects/case5.webp" width="320" height="180" class="shadow-md rounded-xl" alt="imagem do projeto 5" title="Busca de pacotes de viagens e hospedagem, exemplo de site" />
         </a>
     </figure>
 </template>
