@@ -52,7 +52,7 @@
         <section id="about" class="mx-2 space-y-4 pt-36">
             <div class="flex flex-col items-center justify-center">
                 <figure class="object-cover object-center text-center espace-y-12">
-                    <img src="../assets/images/profile/profile.jpeg" class="w-40 h-40 border-2 rounded-full shadow-lg border-slate-800 outline-slate-800 outline-2" alt="imagem de Elivandro" />
+                    <img src="../assets/images/profile/profile.jpeg" width="160" height="160" class="border-2 rounded-full shadow-lg border-slate-800 outline-slate-800 outline-2" alt="imagem de Elivandro" />
                     <figcaption class="py-2">
                         <p class="text-2xl">Elivandro Silva</p>
                     </figcaption>
