@@ -3,67 +3,70 @@
     <div class="max-w-6xl text-lg">
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <!-- Card HTML -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
+                            <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
+                            <path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z" />
+                            <path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z" />
                         </svg>
                     </div>
-                    <p class="text-gray-600">Linguagem de marcação para criação de páginas web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Linguagem de marcação para criação de páginas web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-600">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>HTML</p>
                 </div>
             </div>
 
             <!-- Card CSS -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                             <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Linguagem de estilo para design de páginas web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Linguagem de estilo para design de páginas web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>CSS</p>
                 </div>
             </div>
 
             <!-- Card JS -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                             <path fill="#f7df1e" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"></path>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Linguagem de programação para interatividade em páginas web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Linguagem de programação para interatividade em páginas web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>JavaScript</p>
                 </div>
             </div>
 
             <!-- Card PHP -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
                             <path fill="#dcd5f2" d="M40,61.5C18.22,61.5,0.5,51.855,0.5,40S18.22,18.5,40,18.5S79.5,28.145,79.5,40S61.78,61.5,40,61.5z"></path><path fill="#8b75a1" d="M40,19c21.505,0,39,9.421,39,21S61.505,61,40,61S1,51.579,1,40S18.495,19,40,19 M40,18 C17.909,18,0,27.85,0,40s17.909,22,40,22s40-9.85,40-22S62.091,18,40,18L40,18z"></path><path fill="#36404d" d="M25.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C29.023 43.074 27.395 44 21.57 44h-4.14l1.75-10H25.112M25.112 32H17.5L14 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C32.842 35.096 29.436 32 25.112 32L25.112 32zM61.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C65.023 43.074 63.395 44 57.57 44h-4.14l1.75-10H61.112M61.112 32H53.5L50 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C68.842 35.096 65.436 32 61.112 32L61.112 32z"></path><g><path fill="#36404d" d="M49.072,33.212C48.193,32.348,46.644,32,44.334,32h-5.538L40,26h-2.1L34,46h1.99l2.388-12h0.419 h5.538c2.338,0,3.094,0.4,3.335,0.637c0.343,0.338,0.424,1.226,0.217,2.363l-1.767,9h2.106l1.626-8.63 C50.199,35.462,49.936,34.062,49.072,33.212z"></path></g>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Linguagem de programação para desenvolvimento web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Linguagem de programação para desenvolvimento web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>PHP</p>
                 </div>
             </div>
 
             <!-- Card MySQL -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
@@ -87,45 +90,45 @@
                             <path fill="#00796b" d="M33.098,14.223c-0.215-0.004-0.367,0.023-0.528,0.059c0,0.01,0,0.019,0,0.03c0.01,0,0.019,0,0.03,0 c0.103,0.21,0.283,0.347,0.41,0.528c0.098,0.205,0.195,0.41,0.293,0.615c0.01-0.01,0.019-0.019,0.029-0.029 c0.181-0.128,0.265-0.332,0.264-0.645c-0.073-0.077-0.084-0.173-0.147-0.264C33.365,14.394,33.203,14.325,33.098,14.223z" />
                         </svg>
                     </div>
-                    <p class="text-gray-600">Sistema de gerenciamento de banco de dados relacional.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Sistema de gerenciamento de banco de dados relacional.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>MySQL</p>
                 </div>
             </div>
 
             <!-- Card PostgreSQL -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
                             <path fill="#fff" d="M44.083,29.79c-0.183-0.829-0.935-1.796-2.452-1.796c-0.31,0-0.649,0.039-1.035,0.119c-0.708,0.146-1.311,0.217-1.842,0.241c4.133-7.04,6.816-16.819,4.159-20.214c-3.501-4.473-8.214-5.141-10.711-5.141L31.967,3c-0.929,0.015-1.893,0.129-2.863,0.339l-3.583,0.774C25.033,4.052,24.536,4.009,24.018,4l-0.03,0l-0.016,0l-0.152-0.001c-1.593,0-3.046,0.338-4.341,0.973l-1.251-0.493c-1.72-0.678-4.308-1.485-6.868-1.485c-0.144,0-0.287,0.003-0.431,0.008C8.407,3.093,6.241,4.05,4.664,5.769C2.696,7.915,1.8,11.054,2.003,15.1C2.013,15.309,4.461,36,11.4,36h0.025l0.064-0.001c0.901-0.022,1.76-0.384,2.563-1.077c0.613,0.46,1.406,0.732,2.145,0.84c0.488,0.115,1.366,0.278,2.418,0.278c1.284,0,2.442-0.263,3.44-0.738c-0.001,0.88-0.006,1.994-0.016,3.418l-0.001,0.075l0.005,0.075c0.097,1.419,0.342,2.698,0.711,3.701c1.051,2.859,2.866,4.434,5.111,4.434c0.093,0,0.188-0.003,0.284-0.009c1.846-0.114,3.717-1.151,5.004-2.772c1.393-1.755,1.715-3.607,1.839-5.026L35,39.111v-0.088v-4.079l0.103,0.01l0.436,0.038l0.042,0.004l0.042,0.002c0.124,0.006,0.252,0.008,0.381,0.008c1.507,0,3.362-0.391,4.616-0.974C41.819,33.476,44.559,31.948,44.083,29.79z"></path><path fill="#0277bd" d="M33,34c0-0.205,0.012-0.376,0.018-0.565C33.008,33.184,33,33,33,33s0.012-0.009,0.032-0.022c0.149-2.673,0.886-3.703,1.675-4.29c-0.11-0.153-0.237-0.318-0.356-0.475c-0.333-0.437-0.748-0.979-1.192-1.674l-0.082-0.158c-0.067-0.164-0.229-0.447-0.435-0.819c-1.183-2.14-3.645-6.592-1.96-9.404c0.738-1.232,2.122-1.942,4.121-2.117C33.986,11.718,30.925,6.115,23.985,6c-0.002,0-0.004,0-0.006,0c-6.041-0.098-8.026,5.392-8.672,8.672c0.89-0.377,1.906-0.606,2.836-0.606c0.014,0,0.029,0,0.043,0c2.29,0.017,3.865,1.239,4.323,3.354c0.335,1.552,0.496,2.91,0.492,4.153c-0.01,2.719-0.558,4.149-1.042,5.411l-0.154,0.408c-0.124,0.334-0.255,0.645-0.379,0.937c-0.126,0.298-0.237,0.563-0.318,0.802c0.484,0.11,0.864,0.265,1.125,0.38l0.151,0.066c0.047,0.02,0.094,0.043,0.137,0.069c0.848,0.516,1.376,1.309,1.489,2.233c0.061,0.498,0.051,3.893,0.03,6.855c0.087,1.285,0.305,2.364,0.593,3.146c0.409,1.114,1.431,3.241,3.394,3.119c1.37-0.085,2.687-0.919,3.561-2.019c0.938-1.181,1.284-2.487,1.414-3.958V34z"></path><path fill="#0277bd" d="M15.114 28.917c-1.613-1.683-2.399-3.947-2.104-6.056.285-2.035.124-4.027.037-5.098-.029-.357-.048-.623-.047-.77 0-.008.002-.015.003-.023 0-.004-.002-.007-.002-.011.121-3.021 1.286-7.787 4.493-10.62C15.932 5.724 13.388 4.913 11 5 7.258 5.136 3.636 7.724 4 15c.137 2.73 3.222 19.103 7.44 19 .603-.015 1.229-.402 1.872-1.176 1.017-1.223 2.005-2.332 2.708-3.104C15.705 29.481 15.401 29.217 15.114 28.917zM37.023 14.731c.015.154.002.286-.022.408.031.92-.068 1.813-.169 2.677-.074.636-.15 1.293-.171 1.952-.021.645.07 1.282.166 1.956.225 1.578.459 3.359-.765 5.437.225.296.423.571.581.837 4.61-7.475 6.468-16.361 4.695-18.626C38.655 5.944 34.941 4.952 31.999 5c-.921.015-1.758.139-2.473.294C34.602 7.754 36.863 13.026 37.023 14.731zM41 30.071c-2.665.55-3.947.257-4.569-.126-.1.072-.2.133-.293.19-.372.225-.961.583-1.105 2.782.083.016.156.025.246.044L35.714 33c1.32.06 3.049-.31 4.063-.781C41.962 31.205 43.153 29.627 41 30.071zM22.023 32.119c-.037-.298-.198-.539-.492-.732l-.108-.047C21.062 31.181 20.653 31 20 31h-.004c-.127.01-.253.019-.38.019-.052 0-.103-.007-.155-.009-.474.365-1.148.647-2.816.99-2.98.759-1.221 1.655-.078 1.794 1.106.277 3.735.614 5.481-.809C22.043 32.537 22.035 32.229 22.023 32.119z"></path><path fill="#0277bd" d="M20.681 18.501c-.292.302-.753.566-1.262.484-.828-.134-1.463-1.133-1.417-1.508h0c.044-.374.751-.569 1.578-.435.287.047.548.128.768.228-.32-.688-.899-1.085-1.782-1.182-1.565-.174-3.226.644-3.56 1.097.007.11.02.251.033.417.093 1.147.265 3.284-.05 5.537-.208 1.485.393 3.169 1.567 4.395.757.79 1.641 1.29 2.513 1.438.111-.478.309-.944.513-1.425.113-.265.233-.547.346-.852l.162-.427c.443-1.155.9-2.35.909-4.703C21.003 20.66 20.892 19.627 20.681 18.501zM34.847 22.007c-.104-.729-.211-1.484-.185-2.303.023-.742.105-1.442.184-2.119.062-.533.11-1.045.138-1.55-1.289.107-2.145.479-2.551 1.108.168-.057.358-.102.568-.129.892-.116 1.543.141 1.618.637.055.363-.253.705-.388.836-.277.269-.626.442-.981.488-.064.008-.129.012-.192.012-.353 0-.69-.121-.949-.3.112 1.973 1.567 4.612 2.283 5.907.153.277.271.498.369.688C35.154 24.163 35.009 23.143 34.847 22.007z"></path>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Sistema de gerenciamento de banco de dados relacional de código aberto.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Sistema de gerenciamento de banco de dados relacional de código aberto.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>PostgreSQL</p>
                 </div>
             </div>
 
             <!-- Card Laravel -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" viewBox="0 -.11376601 49.74245785 51.31690859" xmlns="http://www.w3.org/2000/svg">
                             <path d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z" fill="#ff2d20"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Framework PHP para desenvolvimento de aplicativos web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Framework PHP para desenvolvimento de aplicativos web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>Laravel</p>
                 </div>
             </div>
 
             <!-- Card Livewire -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -139,75 +142,75 @@
                             <path style="fill-rule:evenodd;fill:#fff;fill-opacity:1" d="M55.176 35.375c0 2.719-2.164 4.922-4.836 4.922s-4.836-2.203-4.836-4.922 2.164-4.922 4.836-4.922 4.836 2.203 4.836 4.922Zm0 0"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Biblioteca PHP para construção de interfaces de usuário interativas.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Biblioteca PHP para construção de interfaces de usuário interativas.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>Livewire</p>
                 </div>
             </div>
 
             <!-- Card AlpineJS -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                             <path fill="#77c1d2" fill-rule="evenodd" d="M98.444 35.562 126 62.997 98.444 90.432 70.889 62.997z" clip-rule="evenodd"/><path fill="#2d3441" fill-rule="evenodd" d="m29.556 35.562 57.126 56.876H31.571L2 62.997z" clip-rule="evenodd"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Estrutura JavaScript minimalista para interatividade em páginas web.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Estrutura JavaScript minimalista para interatividade em páginas web.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>AlpineJS</p>
                 </div>
             </div>
 
             <!-- Card TailwindCSS -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                             <path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38bdf8"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Framework CSS utilitário para desenvolvimento web rápido.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Framework CSS utilitário para desenvolvimento web rápido.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>TailwindCSS</p>
                 </div>
             </div>
 
             <!-- Card VueJS -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                             <path d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01" fill="none"/><path d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z" fill="#35495e"/><path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Framework JavaScript progressivo para construção de aplicativos web interativos.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Framework JavaScript progressivo para construção de aplicativos web interativos.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>Vue.js</p>
                 </div>
             </div>
 
             <!-- Card Git -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                             <path fill="#F34F29" d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"/>
                         </svg>
                     </div>
-                    <p class="text-gray-600">Sistema de controle de versão distribuído amplamente utilizado.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Sistema de controle de versão distribuído amplamente utilizado.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>Git</p>
                 </div>
             </div>
 
             <!-- Card WordPress -->
-            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md hover:scale-100">
+            <div class="flex flex-col justify-between overflow-hidden transition-transform duration-300 transform scale-95 bg-white border-2 border-gray-600 rounded-lg shadow-md dark:shadow-none dark:border-transparent dark:bg-gray-900 hover:scale-100">
                 <div class="p-4">
                     <div class="flex justify-center mb-2">
                         <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
@@ -216,9 +219,9 @@
                             <path fill="#01579b" d="M4,24c0,11.024,8.97,20,19.999,20C35.03,44,44,35.024,44,24S35.03,4,24,4S4,12.976,4,24z M5.995,24 c0-9.924,8.074-17.999,18.004-17.999S42.005,14.076,42.005,24S33.929,42.001,24,42.001C14.072,42.001,5.995,33.924,5.995,24z" />
                         </svg>
                     </div>
-                    <p class="text-gray-600">Plataforma de gerenciamento de conteúdo para criação de sites e blogs.</p>
+                    <p class="text-gray-600 dark:text-gray-400">Plataforma de gerenciamento de conteúdo para criação de sites e blogs.</p>
                 </div>
-                <div class="px-4 py-2 text-xs font-semibold text-white uppercase bg-slate-700">
+                <div class="px-4 py-2 text-xs font-semibold text-white uppercase dark:text-gray-400 bg-slate-700">
                     <p>WordPress</p>
                 </div>
             </div>
