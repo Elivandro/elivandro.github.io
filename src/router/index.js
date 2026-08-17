@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import SimularApostasComDados from "../views/SimularApostasComDados.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -8,12 +6,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: HomeView,
+      component: () => import("../views/HomeView.vue"),
     },
     {
       path: "/simular-apostas-com-dados",
       name: "simular-apostas-com-dados",
-      component: SimularApostasComDados,
+      component: () => import("../views/SimularApostasComDados.vue"),
       meta: { fullscreen: true },
     },
   ],
