@@ -1,32 +1,56 @@
 name: deploy
+
 on:
   push:
     branches:
       - development
+
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
         with:
           node-version: "18"
-      - name: setup git auth
+
+      - name: setup git config
         env:
-          email: ${{ secrets.SECRET_EMAIL}}
-          username: ${{ secrets.SECRET_USERNAME }}
-          access_token: ${{ secrets.ACCESS_TOKEN }}
+          EMAIL: ${{ secrets.SECRET_EMAIL }}
+          USERNAME: ${{ secrets.SECRET_USERNAME }}
         run: |
-          git config --global credential.helper store
-          echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
-          git config --global user.email $email
-          git config --global user.name $username
+          git config --global user.email "$EMAIL"
+          git config --global user.name "$USERNAME"
+
       - name: deploy to production branch
+        env:
+          EMAIL: ${{ secrets.SECRET_EMAIL }}
+          USERNAME: ${{ secrets.SECRET_USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm install -y
+          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+
+          npm ci
           NODE_ENV=production npm run build
+
           cd dist
-          git init
+
+          git init -b development
+
+          git config user.email "$EMAIL"
+          git config user.name "$USERNAME"
+
           git add -A
-          git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" master:production
+
+          git commit \
+            -m "🚀 ${LAST_COMMIT_MSG} (Deploy ID: ${GITHUB_RUN_ID})"
+
+          git remote add origin \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git push -f origin development:production
